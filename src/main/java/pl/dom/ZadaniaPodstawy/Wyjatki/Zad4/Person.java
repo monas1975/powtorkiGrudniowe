@@ -1,4 +1,4 @@
-package pl.dom.ZadaniaPodstawy.Wyjatki.Zadanie4;
+package pl.dom.ZadaniaPodstawy.Wyjatki.Zad4;
 
 public class Person {
     //Napisz klasę Person, Club, NoAdultException. Klasa Person powinna zawierać, imię, nazwisko i wiek.
@@ -37,5 +37,14 @@ public class Person {
 
     public void setWiek(int wiek) {
         this.wiek = wiek;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "imie='" + imie + '\'' +
+                ", nazwisko='" + nazwisko + '\'' +
+                ", wiek=" + wiek +
+                '}';
     }
 }
