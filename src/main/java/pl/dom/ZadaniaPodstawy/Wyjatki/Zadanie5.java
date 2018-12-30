@@ -1,5 +1,7 @@
 package pl.dom.ZadaniaPodstawy.Wyjatki;
 
+import java.util.Scanner;
+
 public class Zadanie5 {
 
     //Stwórz aplikację i w niej załaduj od użytkownika datę i czas w przyszłości.
@@ -8,7 +10,13 @@ public class Zadanie5 {
 
 
     public static void main(String[] args){
-        
+
+
+        Scanner scanner = new Scanner(System.in);
+
+
+
+
     }
 
 
